@@ -57,13 +57,12 @@ export default class LocationPulseLoader extends React.Component {
 
 		return (
 			<View style={{
-				flex: 1,
 				backgroundColor: 'transparent',
 				justifyContent: 'center',
 				alignItems: 'center',
 				height: pulseMaxSize,
-				position: 'relative',
-				width: pulseMaxSize
+				width: pulseMaxSize,
+				position: 'relative'
 			}}>
 				{this.state.circles.map((circle) => (
 					<Pulse
